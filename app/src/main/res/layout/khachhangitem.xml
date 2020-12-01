@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/tv_idGuest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="101165"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/tv_nameGuest"
+
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="TK15.5"/>
+        <TextView
+            android:id="@+id/tv_birthGuest"
+            android:text="bith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/tv_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gender"
+/>
+        <TextView
+            android:id="@+id/tv_mobleGuest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="number"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
